@@ -24,8 +24,9 @@ Employee attrition is a critical concern for organizations, impacting productivi
 - Support data-driven decision-making to reduce employee turnover.
 
 ## Project Structure
-- [Employee_Attrition_Data.ipynb (Jupyter Notebook)]
-- [Employee_Attrition_Analysis.pbix (Power BI Report)]
+- [Employee_Attrition_Data.ipynb](Employee20%Attrition20%Data) (Jupyter Notebook)
+- [Employee_Attrition_Analysis.pbix](Employee20%Attrition20%Analysis) (Power BI Report)
+- [Employee_Attrition_Data.csv](Employee20%Attrition20%Data). (data.csv)
 - [Employee_Attrition_Report.pdf (Power BI Report - PDF)]
 - [(EDA Report)]
 - [README.md]
@@ -54,7 +55,10 @@ Employee attrition is a critical concern for organizations, impacting productivi
       - Educational backgrounds in Life Sciences and Medical fields have higher attrition.
   
 These insights can guide HR departments in tailoring retention strategies for specific roles, departments, and educational backgrounds.
- 
+
+
+ ## License
+ This Project is licensed Under the [Apache License 2.0](License).
 
 ## 📬 Contact
 - GitHub: [@Bablu-Analyst](https://github.com/Bablu-Analyst)
