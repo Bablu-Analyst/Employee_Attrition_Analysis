@@ -21,10 +21,10 @@ Employee attrition is a critical concern for organizations, impacting productivi
 
 ## Project Structure
 - [Employee_Attrition_Data.ipynb](Employee_Attrition_Data.ipynb) (Jupyter Notebook)
-- [Employee_Attrition_Analysis.pbix](Employee_Attrition_Analysis) (Power BI Report)
-- [Employee_Attrition_Data.csv](Employee_Attrition_Data). (data.csv)
-- [Employee_Attrition_Report.pdf](Employee_Attrition_Report) (Power BI Report - PDF)
-- [EDA Report](Employee_Attrition_Report)(EDA Report)
+- [Employee_Attrition_Analysis.pbix](Employee_Attrition_Analysis.pbix) (Power BI Report)
+- [Employee_Attrition_Data.csv](Employee_Attrition_Data.csv). (data.csv)
+- [Employee_Attrition_Report.pdf](Employee_Attrition_Report.pdf) (Power BI Report - PDF)
+- [EDA Report.hhtml](Employee_Attrition_Report.html)(EDA Report )
 - [README_file](README.md)
 
 
