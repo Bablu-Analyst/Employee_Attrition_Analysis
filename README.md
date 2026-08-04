@@ -5,10 +5,6 @@ In this project, I have explored and analyzed Employee Attrition & Performance u
 ## Overview
 Employee attrition is a critical concern for organizations, impacting productivity and morale. By analyzing historical HR data, we aim to identify key factors contributing to employee departures, enabling proactive retention strategies.
 
-## Dataset
-- Records: 1,470
-- Features: 35 (including both numerical and categorical variables)
-
 ## Tools & Libraries Used
 - Python (Jupyter Notebook)
     - Pandas
@@ -24,12 +20,12 @@ Employee attrition is a critical concern for organizations, impacting productivi
 - Support data-driven decision-making to reduce employee turnover.
 
 ## Project Structure
-- [Employee_Attrition_Data.ipynb](Employee20%Attrition20%Data) (Jupyter Notebook)
-- [Employee_Attrition_Analysis.pbix](Employee20%Attrition20%Analysis) (Power BI Report)
-- [Employee_Attrition_Data.csv](Employee20%Attrition20%Data). (data.csv)
-- [Employee_Attrition_Report.pdf (Power BI Report - PDF)]
-- [(EDA Report)]
-- [README.md]
+- [Employee_Attrition_Data.ipynb](Employee_Attrition_Data.ipynb) (Jupyter Notebook)
+- [Employee_Attrition_Analysis.pbix](Employee_Attrition_Analysis) (Power BI Report)
+- [Employee_Attrition_Data.csv](Employee_Attrition_Data). (data.csv)
+- [Employee_Attrition_Report.pdf](Employee_Attrition_Report) (Power BI Report - PDF)
+- [EDA Report](Employee_Attrition_Report)(EDA Report)
+- [README_file](README.md)
 
 
 ## Key Analysis Steps
@@ -56,6 +52,7 @@ Employee attrition is a critical concern for organizations, impacting productivi
   
 These insights can guide HR departments in tailoring retention strategies for specific roles, departments, and educational backgrounds.
 
+That's it! I've already added clear explanations inside the notebook itself, there shouldn't be any issues on understanding the concepts.
 
  ## License
  This Project is licensed Under the [Apache License 2.0](License).
