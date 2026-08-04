@@ -24,7 +24,7 @@ Employee attrition is a critical concern for organizations, impacting productivi
 - [Employee_Attrition_Analysis.pbix](Employee_Attrition_Analysis.pbix) (Power BI Report)
 - [Employee_Attrition_Data.csv](Employee_Attrition_Data.csv). (data.csv)
 - [Employee_Attrition_Report.pdf](Employee_Attrition_Report.pdf) (Power BI Report - PDF)
-- [EDA Report.hhtml](Employee_Attrition_Report.html)(EDA Report )
+- [EDA Report.html](Employee_Attrition_Report.html)(EDA Report )
 - [README_file](README.md)
 
 
