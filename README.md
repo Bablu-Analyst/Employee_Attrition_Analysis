@@ -21,6 +21,7 @@ Employee attrition is a critical concern for organizations, impacting productivi
 
 ## Structure
 - [Employee_Attrition_Data.ipynb](Employee_Attrition_Data.ipynb) (Jupyter Notebook)
+- [Employee_Attrition_Data.py](Employee_Attrition_Data.py) (Python)
 - [Employee_Attrition_Analysis.pbix](Employee_Attrition_Analysis.pbix) (Power BI Report)
 - [Employee_Attrition_Data.csv](Employee_Attrition_Data.csv). (data.csv)
 - [Employee_Attrition_Report.pdf](Employee_Attrition_Report.pdf) (Power BI Report - PDF)
