@@ -103,7 +103,7 @@ corr_matrix
 plt.figure(figsize = (20, 6))
 sns.heatmap(data = corr_matrix, annot = True, cmap = "coolwarm", fmt = ".2f")
 plt.title("Correlation Matrix Heatmap",fontsize=16, fontweight='bold')
-plt.show()
+st.pyplot()
 
 
 # <h2 style="color:orange;">Histograms for the columns with a significant number of Zeros</h2>
@@ -122,7 +122,7 @@ plt.xlabel("Number of Companies Worked", fontsize=12)
 plt.ylabel("Employee Count", fontsize=12)
 
 plt.tight_layout()
-plt.show()
+st.pyplot()
 
 
 # <b style="color:red; background-color:yellow">Last Year Training Times</b>
@@ -142,7 +142,7 @@ plt.ylabel("Count", fontsize=11, labelpad=10)
 plt.xticks(range(7))
 
 plt.tight_layout()
-plt.show()
+st.pyplot()
 
 
 # <b style="color:red; background-color:yellow">Number of Years at Company</b>
@@ -154,7 +154,7 @@ plt.figure(figsize = (9, 5))
 plt.title("Number of Years at Company", fontsize=14, fontweight='bold', pad=15)
 sns.histplot(df["YearsAtCompany"], bins=10, color="#005b5c", edgecolor="white", kde=True)
 plt.xlabel("No of Year At Company", fontsize=11, labelpad=10)
-plt.show()
+st.pyplot()
 
 
 # <b style="color:red; background-color:yellow">Years in Current Role</b>
@@ -166,7 +166,7 @@ plt.figure(figsize = (9, 5))
 sns.histplot(df["YearsInCurrentRole"], bins=10, color="c", edgecolor="white", kde=True)
 plt.title(" Distribution of Years in Current Role", fontsize=14, fontweight='bold', pad=15)
 plt.xlabel("No of Year in Current Role", fontsize=11, labelpad=10)
-plt.show()
+st.pyplot()
 
 
 # <b style="color:red; background-color:yellow">Number of Years since Last Promotion</b>
@@ -178,7 +178,7 @@ plt.figure(figsize = (9, 5))
 sns.histplot(df["YearsSinceLastPromotion"], bins = 10, edgecolor = "w", color = "#4682b4", kde=True)
 plt.title("Number of Years since Last Promotion", fontsize=14, fontweight='bold', pad=15)
 plt.xlabel(" No Of Year Lost Promotion", fontsize=11, labelpad=10)
-plt.show()
+st.pyplot()
 
 
 # <b style="color:red; background-color:yellow">Years with Current Manager</b>
@@ -190,7 +190,7 @@ plt.figure(figsize = (9, 5))
 sns.histplot(df["YearsWithCurrManager"], bins = 10, edgecolor = "w", color = "forestgreen", kde=True)
 plt.title("Years with Current Manager", fontsize=14, fontweight='bold', pad=15)
 plt.xlabel("No of year With Current Manager", fontsize=11, labelpad=10)
-plt.show()
+st.pyplot()
 
 
 # ____________________
@@ -277,7 +277,7 @@ df.select_dtypes(exclude=["int", "float"]).columns
 plt.figure(figsize = (8, 4))
 sns.histplot(df["Age"], bins = 10, edgecolor = "w", color = "#38B1E2", kde=True)
 plt.title("Age Distribution")
-plt.show()
+st.pyplot()
 
 
 # In[82]:
@@ -286,7 +286,7 @@ plt.show()
 plt.figure(figsize = (8, 4))
 sns.histplot(df["MonthlyIncome"], bins = 10, edgecolor = "w", color = "#133458", kde=True)
 plt.title("Monthly Income Distribution")
-plt.show()
+st.pyplot()
 
 
 # In[83]:
@@ -295,7 +295,7 @@ plt.show()
 plt.figure(figsize = (8, 4))
 sns.histplot(df["TotalWorkingYears"], bins = 10, edgecolor = "w", color = "#838921", kde=True)
 plt.title("Total Working Years Distribution")
-plt.show()
+st.pyplot()
 
 
 # <b style="color:red;">Analyze the frequency of categorical columns: 
@@ -310,7 +310,7 @@ plt.figure(figsize = (8, 4))
 sns.countplot(x = df["JobRole"], color = "#457B9D")
 plt.title("Job Role Distribution")
 plt.xticks(rotation = 40)
-plt.show()
+st.pyplot()
 
 
 # In[85]:
@@ -319,7 +319,7 @@ plt.show()
 plt.figure(figsize = (8, 4))
 sns.countplot(x = df["Department"], color = "c")
 plt.title("Department Distribution")
-plt.show()
+st.pyplot()
 
 
 # In[86]:
@@ -329,7 +329,7 @@ plt.figure(figsize = (8, 4))
 sns.countplot(x = df["EducationField"], color = "brown")
 plt.title("Education Field Distribution")
 plt.xticks(rotation = 40)
-plt.show()
+st.pyplot()
 
 
 # 
@@ -370,7 +370,7 @@ stayed_per
 plt.figure(figsize = (8, 4))
 sns.countplot(x = df["Attrition"], color = "g")
 plt.title("Attrition Distribution")
-plt.show()
+st.pyplot()
 
 
 # <b style="color:red;">Compare Average 
@@ -430,7 +430,7 @@ corr_matrix
 plt.figure(figsize = (20, 6))
 sns.heatmap(data = corr_matrix, annot = True, cmap = "Greens", fmt = ".2f")
 plt.title("Correlation Matrix- Relationships B/W Features")
-plt.show()
+st.pyplot()
 
 
 # <div style="border:2px solid black;  
@@ -506,7 +506,7 @@ plt.title("Age Distribution by Employee Attrition", fontsize=14, fontweight='bol
 plt.xlabel("Age of Employees", fontsize=12)
 plt.ylabel("Number of Employees", fontsize=12)
 plt.tight_layout()
-plt.show()
+st.pyplot()
 
 
 # <div style="border:2px solid black; 
@@ -547,8 +547,7 @@ plt.subplot(1, 3, 3)
 sns.violinplot(data = df, x = "Attrition", y = "Age", 
                hue = "Attrition", palette = ["#ecfc05", "#0df505"])
 plt.title("Age Distribution")
-
-plt.show()
+st.pyplot()
 
 
 # <div style="border:2px solid black; 
@@ -603,7 +602,7 @@ sns.countplot(data = df, x = "EducationField",
 plt.title("Education Field Distribution")
 plt.xticks(rotation = 90)
 
-plt.show()
+st.pyplot()
 
 
 # 
